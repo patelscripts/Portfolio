@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+  --color-portfolio-coral: #f27a63;
+  --color-portfolio-mint: #8cc4b3;
+  --color-portfolio-sand: #f7d3c1;
+  --color-portfolio-dark-text: #2e383f;
+
+  /* ---- NAYI ANIMATIONS YAHAN SE ADD KAREIN ---- */
+  --animate-scroll-left: scroll-left 20s linear infinite;
+  --animate-scroll-right: scroll-right 20s linear infinite;
+
+  @keyframes scroll-left {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  @keyframes scroll-right {
+    0% { transform: translateX(-50%); }
+    100% { transform: translateX(0); }
+  }
+}
