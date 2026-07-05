@@ -1,7 +1,6 @@
-import Navneet_Patel_Resume from "../assets/Navneet_Patel_Resume.pdf";
 export default function Navbar() {
   return (
-    <nav className="w-full max-w-6xl mx-auto p-6 flex justify-between items-center relative z-10">
+    <nav className="sticky top-0 w-full mx-auto p-4 flex justify-between items-center relative z-50 backdrop-blur-sm shadow-sm">
       {/* Logo */}
       <div className="text-xl font-bold text-portfolio-dark-text tracking-tight">
         Navneet<span className="text-portfolio-coral">.dev</span>
@@ -24,7 +23,7 @@ export default function Navbar() {
 
         {/* Resume Button */}
         <a
-          href={Navneet_Patel_Resume}
+          href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-portfolio-coral hover:bg-portfolio-coral/90 text-white text-sm font-semibold px-5 py-2.5 rounded-full transition-colors"
@@ -33,7 +32,7 @@ export default function Navbar() {
         </a>
       </div>
 
-      {/* Mobile Menu Button (Abhi ke liye minimalist wrapper) */}
+      {/* Mobile Menu Button */}
       <div className="md:hidden">
         <button className="text-portfolio-dark-text hover:text-portfolio-coral p-1 transition-colors cursor-pointer">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6">

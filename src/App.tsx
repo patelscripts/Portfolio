@@ -5,6 +5,8 @@ import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
+import Achievements from "./components/Achievements";
+import CurrentlyLearning from "./components/CurrentlyLearning";
 
 export default function App() {
   return (
@@ -17,16 +19,12 @@ export default function App() {
 
       {/* Main Container jahan saare custom components ek ke baad ek aayenge */}
       <div className="relative z-10 min-h-screen w-full flex flex-col">
-        
-        {/* 1. Navbar Component */}
         <Navbar />
-        
-        {/* 2. Hero Component */}
         <Hero />
-        
-        {/* Future sections jaise jaise bante jayenge, yahan niche judte jayenge */}
         <About/>
+        <CurrentlyLearning/>
         <Skills/>
+        <Achievements/>
         <Projects/>
         <Contact/>
         <Footer/>

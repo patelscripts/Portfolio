@@ -70,7 +70,7 @@ export default function Contact() {
             <div>
               <p className="text-xs text-portfolio-dark-text/50">LinkedIn</p>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/navneet-patel-658941281/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm font-medium text-portfolio-dark-text hover:text-portfolio-coral transition-colors"

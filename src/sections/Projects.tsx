@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 export default function Projects() {
   const projects = [
     {
-      title: "AI Interview Prep",
+      title: "InterView Pilot - AI Interview Prep App",
       description:
         "A platform to help candidates practice interviews with AI-powered feedback, built with a modern full-stack setup and automated deployment pipeline.",
       tech: ["React", "Node.js", "Express", "MongoDB", "GitHub Actions"],
@@ -16,17 +16,17 @@ export default function Projects() {
       description:
         "A clean, responsive web application focused on smooth UI interactions and modern design patterns using React and Tailwind CSS.",
       tech: ["React", "Tailwind CSS"],
-      liveLink: "#",
-      sourceLink: "#",
-      image: "/projects/bloom.png",
+      liveLink: "https://bloom-gukt.vercel.app/",
+      sourceLink: "https://github.com/patelscripts/Bloom",
+      image: "Bloom.png",
     },
     {
       title: "Disease Detection",
       description:
         "A machine learning based application that predicts diseases from input data using trained classification models.",
-      tech: ["Python", "Scikit-learn"],
+      tech: ["Python", "Scikit-learn","Pandas", "NumPy", "Matplotlib"],
       liveLink: "#",
-      sourceLink: "#",
+      sourceLink: "https://github.com/patelscripts/Disease-Detection-App",
       image: "/projects/disease-detection.png",
     },
   ];
