@@ -67,7 +67,7 @@ export default function Achievements() {
           CodeClash — Final Coding Round
         </h3>
         <p className="text-sm text-portfolio-dark-text/70 mb-6 max-w-xl mx-auto">
-          Secured <span className="font-semibold text-portfolio-coral">Rank 639</span> in the CodeSprint Final Coding Round, organized by the Let's Code Community.
+          Secured <span className="font-semibold text-portfolio-coral">Rank 629</span> in the CodeSprint Final Coding Round, organized by the Let's Code Community.
         </p>
         <a
           href="/certificates/codeclash-certificate.png"

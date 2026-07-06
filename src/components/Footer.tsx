@@ -46,7 +46,7 @@ export default function Footer() {
             <FaGithub size={16} />
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/navneet-patel-658941281/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-9 h-9 flex items-center justify-center rounded-full bg-portfolio-coral/10 text-portfolio-dark-text hover:bg-portfolio-coral hover:text-white transition-colors duration-200"
@@ -54,7 +54,7 @@ export default function Footer() {
             <FaLinkedin size={16} />
           </a>
           <a
-            href="mailto:navneet@example.com"
+            href="mailto:navneetpatel325@gmail.com"
             className="w-9 h-9 flex items-center justify-center rounded-full bg-portfolio-coral/10 text-portfolio-dark-text hover:bg-portfolio-coral hover:text-white transition-colors duration-200"
           >
             <Mail size={16} />
