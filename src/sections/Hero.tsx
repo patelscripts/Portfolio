@@ -14,7 +14,7 @@ export default function Hero() {
 
       {/* Subtitle */}
       <p className="text-base md:text-lg text-portfolio-dark-text/70 max-w-xl mb-8 leading-relaxed">
-        Frontend developer specializing in creating clean, responsive, and highly interactive user interfaces.
+        Full-Stack developer specializing in creating clean, responsive, and highly interactive user interfaces.
       </p>
 
       {/* Call to Action Buttons */}

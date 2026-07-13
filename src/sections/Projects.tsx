@@ -21,6 +21,15 @@ export default function Projects() {
       image: "Bloom.png",
     },
     {
+  title: "AssetFlow",
+  description:
+    "A full-stack Enterprise Asset & Resource Management ERP system for tracking, allocating, and booking organizational assets, featuring conflict-aware allocation and time-slot overlap validation for resource bookings.",
+  tech: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+  liveLink: "https://ai-assetflow-manager.vercel.app/",
+  sourceLink: "https://github.com/patelscripts/ai-assetflow-manager",
+  image: "AssetFlow.png",
+},
+{
       title: "Disease Detection",
       description:
         "A machine learning based application that predicts diseases from input data using trained classification models.",
@@ -28,7 +37,7 @@ export default function Projects() {
       liveLink: "#",
       sourceLink: "https://github.com/patelscripts/Disease-Detection-App",
       image: "/projects/disease-detection.png",
-    },
+    }, 
   ];
 
   return (
